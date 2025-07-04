@@ -41,7 +41,12 @@ source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 
 ### 4. Start Ollama + Pull Model
-ollama run mistral
+Refer the link above.
+Run the installer (Ollama Setup.exe) and follow the setup instructions.(Windows)
+brew install ollama(macOS)
+ollama pull mistral
+ollama run mistral(to confirm it's working)
+
 
 ### 5. Run the App
 streamlit run main.py
