@@ -30,7 +30,8 @@ def load_and_embed(file_path: str, persist_directory: str = "chroma_db"):
     return vectordb
 
 def get_retriever(persist_directory: str = "chroma_db"):
-    vectordb = Chroma(persist_directory=persist_directory, embedding_function=OllamaEmbeddings())
+    embeddings = OllamaEmbeddings(model="mistral:latest")
+    vectordb = Chroma(persist_directory=persist_directory, embedding_function=embeddings)
     return vectordb.as_retriever()
 
 def answer_query(retriever, question: str):
