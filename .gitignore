@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Env
+venv/
+.env
+
+# Streamlit
+*.streamlit/
+
+# PDFs (optional)
+*.pdf
+
+# System
+.DS_Store

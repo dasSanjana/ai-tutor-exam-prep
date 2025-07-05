@@ -1,0 +1,2 @@
+Linear Algebra includes vector spaces, basis, rank, nullity, eigenvalues, eigenvectors. 
+DBMS includes relational databases, SQL queries, normalization, ER diagrams.
