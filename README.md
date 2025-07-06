@@ -34,18 +34,19 @@ cd ai-tutor-exam-prep
 
 ```
 ###  2. Create Virtual 
-python3 -m venv venv
-source venv/bin/activate  # macOS/Linux
+- python3 -m venv venv
+- source venv/bin/activate  # macOS/Linux
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
 
 ### 4. Start Ollama + Pull Model
-Refer the link above.
-Run the installer (Ollama Setup.exe) and follow the setup instructions.(Windows)
-brew install ollama(macOS)
-ollama pull mistral
-ollama run mistral(to confirm it's working)
+- Refer the link above.
+- Run the installer (Ollama Setup.exe) and follow the setup instructions.(Windows)
+- brew install ollama(macOS)
+- ollama serve(to start in the background)
+- ollama pull mistral
+- ollama run mistral(to confirm it's working)
 
 
 ### 5. Run the App
